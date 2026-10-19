@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: >-
+  Please acknowledge this repository when using its code or results. The associated
+  manuscript has been submitted to Internet of Things (Elsevier) and has not yet
+  been accepted. If accepted, please also cite the article using its final
+  publication details and DOI when available. Please cite the original UVA dataset
+  when using its data. See README.md for citation details.
+title: "Shared Temporal Models and Cross-Link Graphs for LoRaWAN RSSI Forecasting"
+type: software
+authors:
+  - family-names: Donatti
+    given-names: Lorenzo Moreira
+    affiliation: Federal University of Santa Maria
+  - family-names: Barriquello
+    given-names: Carlos Henrique
+    affiliation: Federal University of Santa Maria

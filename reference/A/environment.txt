@@ -1,0 +1,11 @@
+python: 3.12.3
+torch: 2.14.0+cpu
+numpy: 2.5.3
+platform: Linux-7.0.0-31-generic-x86_64-with-glibc2.39
+cuda_runtime: None
+device: cpu
+gpu: None
+torch_threads: 6
+git_revision: 06a5bfe1467ad1d94eb9c05c087ebb62ee9188b3
+git_dirty: True
+source_run: benchmark_results/uva_gatewayA/optimized_seed42_64ep_final_v2

@@ -1,0 +1,35 @@
+model,parameter,value
+ARIMAX,orders,"[[2, 1, 1], [4, 0, 2], [1, 0, 0], [2, 1, 3], [2, 1, 2], [1, 1, 1]]"
+VARX,lags,"[1, 2, 3, 6, 12, 24]"
+VARX,alpha,0.01
+VARX,minimum_burn_in,24
+SingleNode_Seq2Seq,lr,0.003
+SingleNode_Seq2Seq,dropout,0.1
+SingleNode_Seq2Seq,weight_decay,0.001
+SingleNode_Seq2Seq,batch_size,32
+SingleNode_Seq2Seq,hidden_dim,16
+SingleNode_Seq2Seq,num_layers,1
+MultiNode_Seq2Seq,lr,0.001
+MultiNode_Seq2Seq,dropout,0.0
+MultiNode_Seq2Seq,weight_decay,0.001
+MultiNode_Seq2Seq,batch_size,32
+MultiNode_Seq2Seq,hidden_dim,64
+MultiNode_Seq2Seq,num_layers,1
+SingleNode_NLinear,lr,0.01
+SingleNode_NLinear,weight_decay,0.0
+SingleNode_NLinear,batch_size,128
+MultiNode_NLinear,lr,0.01
+MultiNode_NLinear,weight_decay,0.0
+MultiNode_NLinear,batch_size,32
+SingleNode_DLinear,lr,0.001
+SingleNode_DLinear,weight_decay,0.001
+SingleNode_DLinear,batch_size,32
+MultiNode_DLinear,lr,0.001
+MultiNode_DLinear,weight_decay,0.0
+MultiNode_DLinear,batch_size,32
+PhysicalAdaptive_STGNN,lr,0.001
+PhysicalAdaptive_STGNN,dropout,0.0
+PhysicalAdaptive_STGNN,weight_decay,0.0
+PhysicalAdaptive_STGNN,batch_size,32
+PhysicalAdaptive_STGNN,hidden_dim,64
+PhysicalAdaptive_STGNN,blocks,2
